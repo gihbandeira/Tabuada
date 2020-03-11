@@ -1,4 +1,10 @@
 <?php
+
+if(!isset($_REQUEST["tabuada"] ) ){
+    echo" Valor inválido ";
+    exit;
+}
+
     $tabuada = $_REQUEST ["tabuada"];
 
     if($tabuada <=0 || $tabuada > 50){
